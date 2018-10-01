@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rush02.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: arsciand <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/15 17:05:18 by arsciand          #+#    #+#             */
-/*   Updated: 2018/09/16 17:03:29 by arsciand         ###   ########.fr       */
+/*   Updated: 2018/10/02 00:36:02 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int		*parsing(char *str)
 	int	*tabflag;
 	int i;
 	int j;
-	
+
 	tabch = ft_strdup("o-| *\\ABC");
 	j = 0;
 	i = 0;
