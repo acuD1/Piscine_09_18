@@ -1,0 +1,7 @@
+Credentials cache: API:29FE9AFC-A143-4638-812F-48B20C8CB958
+        Principal: arsciand@42.FR
+
+  Issued                Expires               Principal
+Aug 27 13:29:14 2018  Sep  3 13:29:14 2018  krbtgt/42.FR@42.FR
+Aug 27 13:33:33 2018  Sep  3 13:29:14 2018  host/vgs-fn1.42.fr@42.FR
+Aug 27 14:05:39 2018  Sep  3 13:29:14 2018  ldap/ldap-proxy.42.fr@42.FR
