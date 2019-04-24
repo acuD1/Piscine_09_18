@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/07 09:46:30 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/02 00:24:00 by arsciand         ###   ########.fr       */
+/*   Updated: 2019/04/24 15:14:00 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ char	*ft_rot42(char *str)
 	int i;
 
 	i = 0;
-	while (str[i] && str)
+	while (str[i])
 	{
 		if (str[i] >= 'K' && str[i] <= 'Z')
 			str[i] = str[i] - 10;

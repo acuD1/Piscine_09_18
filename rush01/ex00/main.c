@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/09 22:13:43 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/02 00:35:42 by arsciand         ###   ########.fr       */
+/*   Updated: 2019/04/24 15:21:37 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,7 @@ int		ft_rush01(char **av)
 	}
 	ft_p_sudoku(sudoku);
 	ft_do_sudoku(sudoku, 0, 0);
+	free(sudoku)
 	return (0);
 }
 

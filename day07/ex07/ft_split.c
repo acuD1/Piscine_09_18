@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/13 10:19:27 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/02 00:22:48 by arsciand         ###   ########.fr       */
+/*   Updated: 2019/04/24 15:13:33 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,7 @@ int		is_sep(char *str, char *charset, int i)
 	int char_l;
 
 	ichar = 0;
+	char_l = 0;
 	while (charset[ichar])
 		char_l++;
 	while (str[i] && charset[ichar] && str[i] == charset[ichar])
@@ -111,5 +112,4 @@ int		main(int ac, char **av)
 	while (*tab != NULL)
 		printf("%s\n", *tab++);
 	return (0);
-
 }

@@ -6,7 +6,7 @@
 /*   By: arsciand <arsciand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/09/10 18:03:43 by arsciand          #+#    #+#             */
-/*   Updated: 2018/10/02 00:22:35 by arsciand         ###   ########.fr       */
+/*   Updated: 2019/04/24 15:12:38 by arsciand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,6 @@ char	*ft_concat_params(int argc, char **argv)
 
 	i = 0;
 	y = 0;
-	size = 0;
 	size = av_size(argc, argv);
 	if (!(str = malloc(sizeof(char) * (size + 1))))
 		return (0);
